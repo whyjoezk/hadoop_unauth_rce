@@ -49,7 +49,7 @@ if __name__ == '__main__':
         print(use_examples)
         exit()
     elif len(sys.argv):
-        parser = argparse.ArgumentParser(description='Generate neoreg webshell')
+        parser = argparse.ArgumentParser(description='hadoop_unauth_rce')
         parser.add_argument("-u", "--url", metavar="URI", required=True, help="Target Url")
         parser.add_argument("-c", "--cmd", metavar="Command", help="Command")
         args = parser.parse_args()
